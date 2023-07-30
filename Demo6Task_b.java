@@ -13,7 +13,7 @@ public class Demo6Task_b {
         String white = "\033[37m";
         String magenta = "\033[95m";
 
-        String DASHLINE = "%s+-----------------+-----+\n";
+        final String DASHLINE = "%s+-----------------+-----+\n";
         final String RECORD  = "| %3$s%-16s%4$s|%5$s%4s%4$s |\n";
 
 
